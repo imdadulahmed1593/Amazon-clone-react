@@ -15,11 +15,13 @@ function App() {
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
       if (authUser) {
+        //the user is/was logged in
         dispatch({
           type: "SET_USER",
           user: authUser,
         });
       } else {
+        //the user is logged out
         dispatch({
           type: "SET_USER",
           user: null,
