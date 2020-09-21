@@ -14,3 +14,5 @@ export const StateProvider = ({ reducer, initialState, children }) => (
 );
 
 export const useStateValue = () => useContext(StateContext);
+
+//THe parent component of stateProvider is index.js
