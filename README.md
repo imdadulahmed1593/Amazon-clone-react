@@ -1,19 +1,21 @@
+# Amazon Clone
+![alt text](src/images/creative-agency.jpg)
+[https://clone-react-e917c.web.app/](https://clone-react-e917c.web.app/)
 
-![alt text](image.jpg)
-[##Live](https://clone-react-e917c.web.app/)
-A full-stack restaurant app where you can order your favorite food from the menu. You have options for breakfast, lunch, and dinner. Pay online using your credit card and enjoy the most delicious dummy food.
+A full-stack E-commerce app where you can order any product that the website offers. User can checkout their ordered products and then can buy using stripe informations. 
 
-##Features
-Order food from the menu
-Sign Up to place order
-Pay online using your credit card
+## Features
+- Selection of any products 
+- Checkout page and deletion feature
+- User Authentication using Firebase
 
-##Technology
-1.React
-2.React Router
-3.Bootstrap
-4.Node.js
-5.MongoDB
-6.Firebase Authentication
-7.Stripe.js
-8.Heroku
+
+
+## Technologies
+- React
+- React Context API
+- React Router
+- Bootstrap
+- Firebase firestore
+- React animation
+- Firebase Authentication 
