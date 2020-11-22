@@ -24,3 +24,9 @@
   margin-top: 10px;
   color: #111;
 }
+
+@media (max-width: 700px) {
+  .subtotal {
+    margin-left: 0px;
+  }
+}

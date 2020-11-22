@@ -27,3 +27,9 @@
   font-size: 17px;
   font-weight: 700;
 }
+
+@media (max-width: 700px) {
+  .checkoutProduct {
+    margin-left: 0px;
+  }
+}

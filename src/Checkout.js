@@ -44,7 +44,6 @@ function Checkout() {
             </FlipMove>
           </div>
         )}
-        ;
       </div>
       {basket.length > 0 && (
         <div className="checkout__right">

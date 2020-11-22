@@ -15,3 +15,12 @@
   padding: 10px;
   border-bottom: 1px solid lightgray;
 }
+
+@media (max-width: 700px) {
+  .checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
